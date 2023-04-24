@@ -7,14 +7,15 @@ function Produtos(){
     return(
         <div>
             <h1>Nossos Produtos:</h1>
-            <div>
-                <Produto1/>
-                <Produto2/>
-                <br></br>
-                <Produto1/>
-                <Produto2/>
-
-            </div>
+            <table>
+                <tr>
+                <td> <Produto1/> </td>
+                <td> <Produto2/> </td>
+                </tr>
+                <td> <Produto2/> </td>
+                <td> <Produto1/> </td>
+            </table>
+            
             <Menu/>
         </div>
     )
