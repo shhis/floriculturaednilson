@@ -4,7 +4,7 @@ function Menu(){
             <a href="/">Home</a>&nbsp;&nbsp;
             <a href="/produtos">Produtos</a>&nbsp;&nbsp;
             <a href="/sobre">Sobre</a>&nbsp;&nbsp;
-            <a href="/contato">Contato</a>
+            <a href="/login">Login</a>
 
         </div>
     )

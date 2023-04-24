@@ -3,7 +3,7 @@ import Menu from "./Menu"
 function Home(){
     return(
         <div>
-            <h1>Hello World</h1>
+            <h1>Bem Vindo(a)!</h1>
             <Menu></Menu>
         </div>
     )
