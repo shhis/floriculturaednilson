@@ -1,7 +1,9 @@
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Sobre from "./pages/Sobre.jsx";
-import Produtos from "./pages/Produtos.jsx" 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
@@ -14,7 +16,6 @@ function App(){
         <Route path="/" element={<Home/>}/>
         <Route path="/sobre" element={<Sobre/>}/>
         <Route path="/login" element={<Login/>}/>
-        <Route path="/produtos" element={<Produtos/>}/>
       </Routes>
       </BrowserRouter>
 

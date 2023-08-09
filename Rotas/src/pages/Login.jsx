@@ -3,6 +3,8 @@ import Menu from "./Menu";
 function Contato(){
     return(
         <div>
+            <Menu/>
+
             <h1>Login</h1>
             <form>
                 <input type="text" placeholder="Usuário"></input>
@@ -11,7 +13,6 @@ function Contato(){
                 <br></br>
                 <button>Confirmar</button>
             </form>
-            <Menu/>
         </div>
     )
 }
