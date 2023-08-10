@@ -4,12 +4,14 @@
 function Produto1(){
     return (
         <div className="bg-dark"
-        style={{objectFit: 'fit',
+        style={{objectFit: 'fill',
         height: '30vw',
-        backgroundImage: `url("https://media.istockphoto.com/id/1132974918/photo/men-and-women-sitting-in-a-circle-during-group-therapy-supporting-each-other.jpg?s=612x612&w=0&k=20&c=3KloVsaC48DNBou5bmNKK2P1gQH-koQhmmQvEMRUuGM=")` 
+        background:'linear-gradient(135deg, rgba(80,255,109,1) 0%, rgba(125,226,255,1) 99%)',
     }}>
+        
 
-            <h1> HKDJSHFJHFKJDSHKFUS</h1>
+            <h1 className="text-center"> Mente Plana</h1>
+            <h3 className="text-center"> O mundo melhor começa com você </h3>
 
         </div>
 

@@ -1,0 +1,10 @@
+.logo{
+    position: absolute;
+    left: 10px
+}
+
+.menutext{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
