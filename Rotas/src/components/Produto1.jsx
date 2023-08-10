@@ -1,24 +1,19 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+
 
 
 function Produto1(){
-    return(
-<Container fluid>
-    <Row>
-        <Col className="text-center"> 
-        <Image
-            fluid
-            src={'https://www.golfwrx.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-11-at-9.55.18-AM-1000x600.png'}
-            alt="me"
-            width="50%"
-        />
-        </Col>
-    </Row>
-</Container>
-    ); 
-} 
+    return (
+        <div className="bg-dark"
+        style={{objectFit: 'fit',
+        height: '30vw',
+        backgroundImage: `url("https://media.istockphoto.com/id/1132974918/photo/men-and-women-sitting-in-a-circle-during-group-therapy-supporting-each-other.jpg?s=612x612&w=0&k=20&c=3KloVsaC48DNBou5bmNKK2P1gQH-koQhmmQvEMRUuGM=")` 
+    }}>
+
+            <h1> HKDJSHFJHFKJDSHKFUS</h1>
+
+        </div>
+
+      );
+    }
 
 export default Produto1;
