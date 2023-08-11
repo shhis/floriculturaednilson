@@ -1,5 +1,8 @@
 import Home from "./pages/Home.jsx";
 import Sobre from "./pages/Sobre.jsx";
+import Projetos from "./pages/Projetos.jsx";
+import Ajudar from "./pages/Ajudar.jsx";
+import Contato from "./pages/Contato.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -15,6 +18,9 @@ function App(){
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/sobre" element={<Sobre/>}/>
+        <Route path="/projetos" element={<Projetos/>}/>
+        <Route path="/ajudar" element={<Ajudar/>}/>
+        <Route path="/contato" element={<Contato/>}/>
       </Routes>
       </BrowserRouter>
 

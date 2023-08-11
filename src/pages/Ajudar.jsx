@@ -3,8 +3,10 @@ import Menu from "./Menu";
 function Contato(){
     return(
         <div>
-            <Menu></Menu>
-            <h1>Contato</h1>
+            <Menu/>
+
+            <h1>Ajudar</h1>
+
         </div>
     )
 }
