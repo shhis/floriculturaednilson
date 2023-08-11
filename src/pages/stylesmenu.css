@@ -1,0 +1,40 @@
+:root{
+    --verde: #50ff6d;
+    --azul: #7de2ff;
+    --gradiente: linear-gradient(135deg, var(--verde) 0%, var(--azul) 99%);
+    --gradientetransparente: linear-gradient(180deg, var(--verde) 0%, var(--azul) 85%, rgba(255,0,0, 0) 100%);
+}
+
+.menubar{
+    background: #fff;
+    box-shadow: inset 0 -10px 10px -10px var(--verde);
+}
+
+.logo{
+    position: absolute;
+    left: 10px
+}
+
+.menutext{
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menutext:hover{
+    color: var(--verde);
+}
+
+
+.box{
+    background-image: var(--gradientetransparente);
+    height: 30vw;
+    vertical-align: middle;
+
+}
+
+.boxtext{
+    position: relative;
+    top: 35%;
+    vertical-align: middle;
+}
