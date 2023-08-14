@@ -13,10 +13,15 @@ function Sobre(){
                 <img class="imagemtime"
                 src="https://images.pexels.com/photos/7109063/pexels-photo-7109063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
                 </div>
-            
-            <h1>Quem Somos:</h1>
+
+                <div class="quemsomos">
+                <h1 class="text-center">Quem Somos:</h1>
         
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita consequatur officia minima repudiandae illum rerum esse, quas nulla corrupti cupiditate provident atque. Accusantium dignissimos nostrum, doloremque voluptate eaque quaerat.</p>
+            <p class="text-center">Lorem ipsum dolor sit amet elit. Dolorum minima repudiandae illum. Accusantium dignissimos nostrum, doloremque voluptate eaque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis aspernatur architecto temporibus optio laboriosam corrupti soluta, harum mollitia! Iste voluptatibus similique quasi hic beatae nisi repellendus pariatur fuga maxime.</p>
+                    
+                </div>
+            
+           
         
             </div>
         </div>
