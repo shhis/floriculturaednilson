@@ -6,6 +6,8 @@
 }
 
 
+/*MENU*/
+
 .menubar{
     background: #fff;
     box-shadow: inset 0 -10px 10px -10px var(--verde);
@@ -40,6 +42,8 @@
 }
 
 
+/* HOME */
+
 .box{
     background-image: var(--gradientetransparente);
     height: 30vw;
@@ -72,4 +76,15 @@
 
 .missaoexplica{
     word-wrap: break-word;
+}
+
+.imgmain{
+    width: 300px;
+    object-fit: cover;
+}
+
+/* SOBRE */
+
+.imagemtime{
+    width: 30vw;
 }

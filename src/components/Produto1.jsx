@@ -7,7 +7,7 @@ function Produto1(){
         style={{objectFit: 'fill',}}>
         
 
-            <h1 class="text-center boxtitle boxtext"> Mente Plana</h1>
+            <h1 class="text-center boxtitle boxtext">Watchgood</h1>
             <h3 class="text-center boxtext"> O mundo melhor começa com você </h3>
 
         </div>
