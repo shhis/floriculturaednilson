@@ -7,7 +7,7 @@ function Contato(){
         <div>
             <Menu/>
 
-            <h1>Ajudar</h1>
+            <h1 class="title text-center">Ajudar</h1>
 
         </div>
     )

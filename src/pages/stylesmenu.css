@@ -49,7 +49,12 @@
     color: var(--text-dark);
 }
 
-
+.title{
+    background: -webkit-linear-gradient(var(--verde), var(--azul));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 650;
+}
 /*MENU*/
 
 .menubar{
@@ -111,13 +116,6 @@
     width: 25%;
 }
 
-.missao{
-    background: -webkit-linear-gradient(var(--verde), var(--azul));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 650;
-}
-
 .missaoexplica{
     word-wrap: break-word;
 }
@@ -131,13 +129,6 @@
 
 .imagemtime{
     width: 50vw;
-}
-
-.quemsomostitle{
-    background: -webkit-linear-gradient(var(--verde), var(--azul));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 650;
 }
 
 .quemsomos{

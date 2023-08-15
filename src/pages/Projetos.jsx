@@ -8,7 +8,7 @@ function Produtos(){
     return(
         <div>
             <Menu/>
-            <h1 class="text-center">Nossos Projetos</h1>
+            <h1 class="text-center my-2 title">Nossos Projetos</h1>
             <Galeria/>
         </div>
     )

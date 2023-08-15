@@ -8,7 +8,7 @@ function Home(){
         <div>
             <Menu></Menu>
                 <Produto1/>
-                <h1 class="missao text-center my-5">Nossa Missão</h1>
+                <h1 class="title text-center my-5">Nossa Missão</h1>
                 <div class="d-flex justify-content-center my-3 text-center">
                     <img class="mx-5 imgmain"
                      src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
