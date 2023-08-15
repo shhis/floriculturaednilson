@@ -1,4 +1,6 @@
 import Menu from "./Menu";
+import './stylesmenu.css'
+
 
 function Contato(){
     return(

@@ -1,8 +1,52 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
 :root{
     --verde: #50ff6d;
     --azul: #7de2ff;
     --gradiente: linear-gradient(135deg, var(--verde) 0%, var(--azul) 99%);
     --gradientetransparente: linear-gradient(180deg, var(--verde) 0%, var(--azul) 85%, rgba(255,0,0, 0) 100%);
+    --text-dark: #1b1e3a;
+
+}
+
+
+.text-center{
+    color: var(--text-dark);
 }
 
 
@@ -26,8 +70,8 @@
 }
 
 .menutext{
-    color: #1b1e3a;
-    text-shadow: 1px 1px 1px #2bb2e7;
+    color: var(--text-dark);
+    text-shadow: 1px 1px 1px #5cc6f0;
     font-weight: 500;
     font-size: 1.25rem;
     text-decoration: none;
@@ -89,16 +133,33 @@
     width: 50vw;
 }
 
+.quemsomostitle{
+    background: -webkit-linear-gradient(var(--verde), var(--azul));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 650;
+}
+
 .quemsomos{
     position: relative;
     left: 25vw;
     width: 50%;
 }
 
+/* PROJETOS */
+
+.galeria{
+    width: 25vw;
+}
+
+.galeriabox{
+    justify-content: center;
+}
+
 /* CONTATO */
 
 .contatodiv{
-    background-color: var(--verde);
+    box-shadow: inset  0 0 3px var(--verde);
     width: 25%;
     position: relative;
     left: 40vw;
@@ -106,5 +167,29 @@
 
 .contato{
     font-size: 0.95rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.email::before{
+    margin-right: 5%;
+    align-self: center;
+    font-family: "Material Icons";
+    content: "\e0be";
+    color: var(--gradiente);
+}
+
+.telefone::before{
+    margin-right: 5%;
+    align-self: center;
+    font-family: "Material Icons";
+    content: "\e0b0";
+}
+
+.endereco::before{
+    margin-right: 5%;
+    align-self: center;
+    font-family: "Material Icons";
+    content: "\e88a";
 }

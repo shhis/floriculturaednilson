@@ -1,5 +1,7 @@
 import Menu from "./Menu"
 import Produto1 from "../components/Produto1";
+import './stylesmenu.css'
+
 
 function Home(){
     return(

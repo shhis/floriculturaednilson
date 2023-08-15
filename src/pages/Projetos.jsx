@@ -1,11 +1,15 @@
 import Menu from "./Menu";
+import Galeria from "../components/Galeria";
+import './stylesmenu.css'
+
 
 
 function Produtos(){
     return(
         <div>
             <Menu/>
-            <h1>Projetos</h1>
+            <h1 class="text-center">Nossos Projetos</h1>
+            <Galeria/>
         </div>
     )
 }
