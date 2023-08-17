@@ -17,7 +17,7 @@ function Sobre(){
                 <div class="quemsomos">
                 <h1 class="text-center title">Quem Somos:</h1>
         
-            <p class="text-center">Lorem ipsum dolor sit amet elit. Dolorum minima repudiandae illum. Accusantium dignissimos nostrum, doloremque voluptate eaque quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis aspernatur architecto temporibus optio laboriosam corrupti soluta, harum mollitia! Iste voluptatibus similique quasi hic beatae nisi repellendus pariatur fuga maxime.</p>
+            <p class="text-center">Um time pessoalmente afetado por depressão e com entes queridos perdidos para ataques cardíacos, continuamos em busca de algum jeito de acomodar esse sintoma.</p>
                     
                 </div>
             

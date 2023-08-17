@@ -14,7 +14,7 @@ function Home(){
                      src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
                     <div class="caixamissao"> 
                         <h3>Para um futuro melhor</h3>
-                        <p class="missaoexplica">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quam quo aliquam reiciendis sapiente! Vitae perspiciatis quos doloremque explicabo natus eius libero neque! Nostrum doloribus voluptatem ipsa velit consequuntur saepe.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="missaoexplica"> Em um mundo com 15,5% da população sofre de depressão, várias pessoas são afetadas por cardiopatias, que podem causar infartos. Nós desenvolvemos um SmartWatch especificamente treinado para o monitoramento para os afetados, além de checar seu pulso 24 horas por dia, ele consegue alertar quando estiver em risco</p>
                     </div>
                 </div>
 
